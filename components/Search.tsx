@@ -1,8 +1,9 @@
 import React from 'react';
 
+
 interface LabeledValue {
   query: string;
-  setQuery: (value: string) => void;
+  setQuery: (value: string) => void;    
   event?: React.FormEvent<HTMLFormElement>;
 }
 
@@ -22,3 +23,5 @@ const Search: React.FC<LabeledValue> = ({ query, setQuery }) => {
         />
     );
 }
+
+export default Search;
