@@ -20,15 +20,18 @@ const Search: React.FC<LabeledValue> = ({ query, setQuery, onSearch }) => {
   }
 
   return (
-    <input
-      id="search-input"
-      type="text"
-      placeholder="Enter a movie title..."
-      className="p-2 rounded-4xl border border-gray-300 h-15 w-150 mt-7 text-center placeholder-gray-500 focus:border-blue-500 focus:outline-none transition-colors"
-      value={query}
-      onChange={handleChange}
-      onKeyDown={handleKeyDown}
-    />
+    <div className="relative">
+      <input
+        id="search-input"
+        type="text"
+        placeholder="Enter a movie title... (e.g., The Dark Knight)"
+        className="search-input w-full p-4 rounded-2xl text-slate-100 text-center placeholder-slate-400 focus:outline-none text-lg font-medium"
+        value={query}
+        onChange={handleChange}
+        onKeyDown={handleKeyDown}
+      />
+      <div className="absolute inset-0 rounded-2xl shimmer pointer-events-none opacity-30"></div>
+    </div>
   )
 }
 

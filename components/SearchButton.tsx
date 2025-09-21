@@ -6,9 +6,15 @@ export default function SearchButton({ handleSearch }: LabeledValue) {
   return (
     <button
       onClick={handleSearch}
-      className="p-2 rounded-4xl bg-red-500 border border-gray-300 h-15 w-50 mt-7 text-center hover:cursor-pointer hover:bg-red-600 transition-colors duration-300"
+      className="search-button px-8 py-4 rounded-2xl text-white font-semibold text-lg hover:cursor-pointer transition-all duration-300 flex items-center gap-3 group"
     >
-      Search
+      <span className="text-xl group-hover:scale-110 transition-transform">
+        🎬
+      </span>
+      Search Movies
+      <span className="text-xl group-hover:scale-110 transition-transform">
+        🔍
+      </span>
     </button>
   )
 }
