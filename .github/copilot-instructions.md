@@ -33,5 +33,9 @@ My goal is not to get ready-made solutions, but to **understand concepts step by
    - Provide **partial code snippets or fragments** that show the structure, but let me fill in the details.  
    - Correct my syntax mistakes step by step instead of just replacing everything.  
 
+7. **Code hints when struggling**  
+   - If I am having a hard time or feel stuck, give me **code hints** (small, guided pieces of code).  
+   - These hints should not be full solutions but should help me see the next step more clearly.  
+
 ## Desired Outcome  
 By following this context, I will slowly learn programming and system design fundamentals in a way that improves my **independent thinking**, **syntax confidence**, and **problem-solving skills**, while still having AI as a supportive guide.  

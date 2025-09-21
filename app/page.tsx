@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <main className="flex flex-col justify-center items-center h-screen gap-8">
       <h1 className={`text-8xl ${bitcount.className}`}>Movie Explorer</h1>
-      <p className="text-4xl text-center">
+      <p className="text-4xl text-center mx-100">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero rerum
         commodi eum maxime ea iure excepturi. Voluptatem atque rem aliquid.
       </p>
